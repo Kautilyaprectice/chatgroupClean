@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(80, 158, 194);
+}
+
+#name{
+    margin:0 1rem 1rem 1rem;
+    background-color: aquamarine;
+}
+
+#email{
+    margin:0 1rem 1rem 1rem;
+    background-color: aquamarine;
+}
+
+button{
+    background-color: pink;
+}
