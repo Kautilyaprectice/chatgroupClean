@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
-    <main class="main">
-        <form class="form" onsubmit="localStorage.setItem('username',document.getElementById('username').value)" action="/username" method="POST">
-            Username:<input type="text" name="username" id="username" class="username">
-            <br><br>
-            <button type="submit" class="login">Login</button>
-        </form>
-    </main>
+    <form onsubmit="localStorage.setItem('username',document.getElementById('username').value)" action="/username" method="POST">
+        Username:<input type="text" name="username" id="username">
+        <br>
+        <button type="submit">Login</button>
+    </form>
 </body>
 </html>
